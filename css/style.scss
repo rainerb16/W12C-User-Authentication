@@ -8,10 +8,38 @@ body {
     display: grid;
 }
 
+form {
+    margin: 10px;
+    
+    input {
+        margin: 10px;
+    }
+
+    #login-submit {
+        padding: 5px;
+    }
+}
+
 #welcome-message {
     text-align: center;
     margin: 2vh;
     line-height: 5vh;
+}
+
+#login-btn {
+    text-align: center;
+    
+    button {
+        padding: 5px;
+    }
+}
+
+#logout-btn {
+    text-align: center;
+    
+    button {
+        padding: 5px;
+    }
 }
 
 #post-container {
@@ -23,8 +51,8 @@ body {
  
 
 .color-box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     justify-items: center;
     align-items: center;
 }
