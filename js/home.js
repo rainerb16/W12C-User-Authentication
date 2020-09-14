@@ -24,6 +24,7 @@ function noUser() {
 document.getElementById("login-btn").addEventListener("click", noUser);
 
 
+
 // LOG OUT FUNCTION
 function logOut() {
     window.open("../index.html", "_self");
